@@ -1,4 +1,4 @@
-# sddm-astronaut-theme
+# sddm-alaska-theme based on sddm-astronaut-theme
 
 A theme for the [SDDM login manager](https://github.com/sddm/sddm).
 
@@ -35,15 +35,15 @@ sddm-qt6 qt6-svg
 1. Clone this repository, copy fonts to `/usr/share/fonts/`:
 
    ```sh
-   sudo git clone https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
-   sudo cp /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/
+   sudo git clone https://github.com/Dequilla/sddm-alaska-theme.git /usr/share/sddm/themes/sddm-alaska-theme
+   sudo cp /usr/share/sddm/themes/sddm-alaska-theme/Fonts/* /usr/share/fonts/
    ```
 
 2. Then edit `/etc/sddm.conf`, so that it looks like this:
 
     ```sh
     echo "[Theme]
-    Current=sddm-astronaut-theme" | sudo tee /etc/sddm.conf
+    Current=sddm-alaska-theme" | sudo tee /etc/sddm.conf
     ```
 
 
@@ -65,10 +65,21 @@ sddm-qt6 qt6-svg
     ```
 
 ### Credits
-
-Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by **MarianArlt**.
+sddm-alaska-theme is based on sddm-astronaut-theme which in turn is based on Sugar Dark for SDDM.
+- [`Astronaut theme for SDDM`](https://github.com/Keyitdev/sddm-astronaut-theme) by **Keyitdev**.
+- [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by **MarianArlt**.
 
 ### License
 
 Distributed under the **[GPLv3+](https://www.gnu.org/licenses/gpl-3.0.html) License**.    
 Copyright (C) 2022-2024 Keyitdev.
+
+#### Backgrounds
+Backgrounds are retrieved from unsplash.com using only images licensed with their free license. Following are the copyright holders:
+- https://unsplash.com/@rodlong
+- https://unsplash.com/@zetong
+- https://unsplash.com/@gracegonewild
+- https://unsplash.com/@jwheeler5759
+- https://unsplash.com/@funkmastacrump
+- https://unsplash.com/@joshuas
+- https://unsplash.com/@vshashkov
