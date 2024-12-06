@@ -11,9 +11,6 @@ You can easily change how it looks in **[config](./Themes/theme1.conf)**.
 Here are some examples:
 
 ![Preview](./Previews/preview1.png)
-![Preview](./Previews/preview2.png)
-![Preview](./Previews/preview3.png)
-![Preview](./Previews/preview4.png)
 
 ### Dependencies
 
@@ -49,7 +46,7 @@ sddm-qt6 qt6-svg
 
 ### Virtual keyboard
 
-![Preview](./Previews/preview5.png)
+![Preview](https://github.com/Keyitdev/sddm-astronaut-theme/blob/master/Previews/preview5.png?raw=true)
 
 #### Arch
 1. Install package.

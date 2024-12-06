@@ -216,7 +216,7 @@ Column {
             }
             background: Rectangle {
                 color: "#222222"
-                opacity: 0.2
+                opacity: 0.6
                 border.color: "transparent"
                 border.width: parent.activeFocus ? 2 : 1
                 radius: config.RoundCorners || 0
@@ -338,7 +338,7 @@ Column {
             renderType: Text.QtRendering
             background: Rectangle {
                 color: "#222222"
-                opacity: 0.2
+                opacity: 0.6
                 border.color: "transparent"
                 border.width: parent.activeFocus ? 2 : 1
                 radius: config.RoundCorners || 0
@@ -404,7 +404,7 @@ Column {
             background: Rectangle {
                 id: buttonBackground
                 color: "white"
-                opacity: 0.2
+                opacity: 0.6
                 radius: config.RoundCorners || 0
             }
 
